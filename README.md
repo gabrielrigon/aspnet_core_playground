@@ -19,3 +19,13 @@ Project created to explore the structure of APIs using ASP.NET Core 2, helping t
 - macOS, Linux or Windows
 - [SDK .NET Core 2.2](https://dotnet.microsoft.com/download/dotnet-core/2.2)
 - [MongoDB 4.2](https://www.mongodb.com/download-center/community)
+
+### Running the project
+
+To run this project, you just need to install the dependencies and execute the following command:
+
+```sh
+$ dotnet run
+```
+
+After that, you can send requests to `TodoController` and interact with actions.
