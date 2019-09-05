@@ -13,6 +13,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 
 using TodoApi.Models;
+using TodoApi.Services;
 
 namespace TodoApi
 {
@@ -30,6 +31,7 @@ namespace TodoApi
     {
       services.Configure<TodoDatabaseSettings>(Configuration.GetSection(nameof(TodoDatabaseSettings)));
       services.AddSingleton<ITodoDatabaseSettings>(sp => sp.GetRequiredService<IOptions<TodoDatabaseSettings>>().Value);
+      services.AddSingleton<TodoService>();
       services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
     }
 
