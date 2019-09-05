@@ -29,3 +29,11 @@ $ dotnet run
 ```
 
 After that, you can send requests to `TodoController` and interact with actions.
+
+#### Considerations
+
+At this moment, I don't see another better way to install the dependencies, so, you need to run this command before running the project:
+
+```sh
+$ dotnet add TodoApi.csproj package MongoDB.Driver -v 2.9.1
+```
