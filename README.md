@@ -1,6 +1,6 @@
-# ASP.NET Core 2.2 Playground
+# .NET Core 2.2 Playground
 
-Project created to explore the structure of APIs using ASP.NET Core 2, helping to implement resources and understand them.
+Project created to explore the structure of APIs using .NET Core 2, helping to implement resources and understand them.
 
 ### Roadmap 1 (on branch [master](https://github.com/gabrielrigon/aspnet_core_playground))
 
